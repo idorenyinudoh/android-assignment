@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Udoh Idorenyin\'s Calculator</string>
     <string name="result_comes_here">Result comes here</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="div">/</string>
+    <string name="number1">Input first number</string>
+    <string name="number2">Input second number</string>
 </resources>
