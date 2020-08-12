@@ -15,5 +15,20 @@ class MainActivity : AppCompatActivity() {
             result_view.text = sum.toString()
         }
 
+        button_divide.setOnClickListener {
+            var division : Double = number1.toString().toDouble() / number2.toString().toDouble()
+            result_view.text = division.toString()
+        }
+
+        button_minus.setOnClickListener {
+            var sub : Double = number1.toString().toDouble() - number2.toString().toDouble()
+            result_view.text = sub.toString()
+        }
+
+        button_times.setOnClickListener {
+            var mult : Double = number1.toString().toDouble() * number2.toString().toDouble()
+            result_view.text = mult.toString()
+        }
+
     }
 }
