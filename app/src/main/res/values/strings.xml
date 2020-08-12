@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="result_comes_here">Result comes here</string>
 </resources>
